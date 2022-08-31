@@ -27,6 +27,11 @@ nav a {
 	text-decoration: none;
 }
 
+nav a:hover{
+	color: #C78C19;
+	text-decoration: underline;
+}
+
 
 .produtos{
 	width: 940px;
@@ -39,6 +44,26 @@ nav a {
 	text-align: center;
 	width: 30%;
 	vertical-align: top;
+	background: #CCCCCC;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	 border-color: #000000;
+  border-wildth: 2px;
+  border-style: solid;
+  border-rodius: 2px; 
+ }
+
+ .produtos li:hover {
+ 	border-color:C78C19 ;
+ }
+
+ .produtos li:active {
+ 	border-color: 088C15;
+ }
+
+.produtos li:houver h2{
+ 	font-size: 34px;
 }
 
 .produtos h2{
@@ -53,4 +78,5 @@ nav a {
 .produto-preço{
 	font-size: 22px;
 	font-weight: bold;
+	margin-top: 10px;
 }
